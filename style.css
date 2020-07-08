@@ -1,0 +1,228 @@
+*{
+    /* padding:0px;  */
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color:yellow;
+    background-color: rgb(42, 41, 41);
+    font-size: 40px;
+    padding: 20px;
+}
+
+body { 
+    background-color:rgb(42,41,41);
+} 
+
+
+a{
+    text-decoration:none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar {
+    background-color: rgb(54, 56, 59);
+    font-family: monospace;
+    font-size: 20px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    top: 0;
+    position: sticky;
+}
+
+.menu-bar ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu-bar ul li a{
+    color:white; 
+    font-size: 20px;
+    padding:10px;
+}
+
+.left-home {
+    padding-left:0px;
+} 
+
+.menu-bar ul li a:hover {
+    background-color: yellow;
+    color: rgb(21, 22, 24);
+    padding-top: 15px;
+    padding-bottom:15px;
+    /* padding:10px; */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:rgb(42, 41, 41);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.searchBar {
+    position: absolute;
+    /* padding:8px;
+    padding-left:580px;
+    border: 0px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+
+}
+
+.searchBar ul li {
+    display: inline;
+    padding: 0px;
+    /* align-content: center; */
+}
+
+.searchBar ul .button {
+    padding-left:0px;
+}
+
+.searchBar .search-text {
+    font-size: 25px;
+    font-family: monospace;
+    padding: 10px;
+    padding-right: 200px;
+    background-color:rgb(21, 22, 24) ;
+    color: white;
+    border-radius: 4px;
+}
+
+button {
+    padding:10px;
+    font-size:25px ;
+    background-color: rgb(44,47,53);
+    color: white;
+    border-radius:4px;
+}
+
+h2 {
+    color:yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.gallery ul li {
+    display: inline-block;
+    list-style: none;
+    padding:18px;   
+}
+
+.gallery {
+    background-color: ;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.music {
+    text-align: center;
+    padding:80px;
+}
+
+.music ul li {
+    display: inline-block;
+    padding:18px;
+}
+
+p, .details {
+    color: white;
+    font-family:monospace;
+    font-size:20px;
+    text-align: center;
+    padding:50px;
+    text-decoration: none;
+}
+
+.details ul {
+    text-align: center;
+}
+
+.details ul li {
+    padding: 20px;
+    display: inline;
+}
+
+.details a {
+    color: white;
+    padding: 10px;
+}
+
+.details a:hover {
+    color: black;
+    background-color: yellow;
+    border-radius: 25px;
+}
+
+p a {
+    text-decoration: none;
+    color:yellow;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.about-h {
+    padding-top:60px;
+}
+
+h4, h4 a {
+    color:yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    padding:30px;
+    padding-left:60px;
+    text-decoration:none;
+}
+
+form {
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    padding-left:60px;
+}
+
+input {
+    padding:10px;
+    color: white;
+    background-color:rgb(21, 22, 24) ;
+    width: 500px;
+    border-radius: 5px;
+    font-size: 20px;
+}
